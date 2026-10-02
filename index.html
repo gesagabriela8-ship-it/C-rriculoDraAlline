@@ -29,7 +29,7 @@
     /* ===== HERO ===== */
     #hero { position:relative; width:100%; height:100vh; min-height:620px; display:grid; grid-template-columns:1fr 1fr; overflow:hidden; }
     .hero-foto { position:relative; overflow:hidden; }
-    .hero-foto img { width:100%; height:100%; object-fit:cover; object-position:center top; display:block; }
+    .hero-foto img { width:100%; height:100%; object-fit:cover; object-position:center 5%; display:block; }
     .hero-foto::before { content:""; position:absolute; inset:0; background: linear-gradient(to left, var(--preto) 0%, rgba(10,10,10,0.2) 35%, transparent 65%), linear-gradient(to top, var(--preto) 0%, transparent 20%); z-index:2; }
     .hero-foto::after { content:""; position:absolute; top:8%; bottom:8%; right:0; width:1px; background:linear-gradient(to bottom, transparent, var(--dourado) 30%, var(--dourado) 70%, transparent); z-index:3; }
     .hero-conteudo { position:relative; z-index:10; display:flex; flex-direction:column; justify-content:center; padding:80px 4% 2rem 6%; }
@@ -239,7 +239,7 @@
   <!-- HERO -->
   <section id="hero">
     <div class="hero-conteudo">
-      <div class="hero-ornamento"><span></span><p>Saúde Mental · Medianeira, PR</p></div>
+      
       <p class="hero-nome">Dra. Aline Zanette</p>
       <h1 class="hero-titulo">
         A sua dor tem uma causa.
